@@ -3,7 +3,7 @@
  * (prix de vente + cout de fabrication), et retourne la différence (bénéfice, perte).
  */
 
-function benefice(coutFab:number, prixVente:number) {
+function benefice(coutFab:number, prixVente:number):string {
     if(coutFab > prixVente){
         return `Perte de ${coutFab - prixVente}`;
     } else if(coutFab < prixVente){
