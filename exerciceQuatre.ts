@@ -2,7 +2,7 @@
  * Fonction qui retourne le plus nombre des paramétres entrés dans la fonction
  */
 
-function laLoiDuPlusGrand(un:number, deux:number, trois:number) {
+function laLoiDuPlusGrand(un:number, deux:number, trois:number):number {
     return Math.max(un, deux, trois);
 }
 
