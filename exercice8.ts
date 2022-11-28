@@ -1,12 +1,12 @@
 /**
  * Fonction qui affiche une pyramique miroir en utilisant deux boucles for.
  */
-function pyramide(num: number): void {
-    for (let index = 1; index <= num; index++) {   
+function pyramide(nombre: number): void {
+    for (let index = 1; index <= nombre; index++) {   
        let ligne = '*'.repeat(index);
        console.log(ligne);
     }
-    for (let index = num; index >= 1; index--) {   
+    for (let index = nombre; index >= 1; index--) {   
         let ligne = '*'.repeat(index);
         console.log(ligne);
      }
